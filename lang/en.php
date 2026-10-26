@@ -1,0 +1,20 @@
+<?php
+return [
+  'app_title' => 'Inventory Management System',
+  'login' => 'Login', 'logout' => 'Logout', 'username' => 'Username', 'password' => 'Password',
+  'login_title' => 'Sign in', 'login_failed' => 'Incorrect username or password.',
+  'login_required' => 'Username and password are required.',
+  'welcome' => 'Welcome', 'data_list' => 'Item List', 'add' => 'Add Item',
+  'edit' => 'Edit', 'delete' => 'Delete', 'save' => 'Save', 'update' => 'Update', 'cancel' => 'Cancel',
+  'no' => 'No', 'code' => 'Item Code', 'name' => 'Item Name', 'category' => 'Category',
+  'qty' => 'Quantity', 'price' => 'Price (IDR)', 'location' => 'Location', 'action' => 'Action',
+  'no_data' => 'No data yet.', 'confirm_delete' => 'Are you sure you want to delete this item?',
+  'search' => 'Search name/code...', 'search_btn' => 'Search',
+  'err_required' => 'All fields are required.', 'err_qty' => 'Quantity must be an integer >= 0.',
+  'err_price' => 'Price must be a number >= 0.', 'err_code_exists' => 'Item code is already in use.',
+  'err_code_format' => 'Code may only contain letters, digits, and hyphens (max 20 chars).',
+  'msg_added' => 'Item added successfully.', 'msg_updated' => 'Item updated successfully.',
+  'msg_deleted' => 'Item deleted successfully.', 'not_found' => 'Item not found.',
+  'language' => 'Language', 'edit_title' => 'Edit Item', 'add_title' => 'Add Item',
+  'invalid_token' => 'Invalid security token.',
+];

@@ -1,0 +1,20 @@
+<?php
+return [
+  'app_title' => 'Sistem Inventaris Barang',
+  'login' => 'Masuk', 'logout' => 'Keluar', 'username' => 'Username', 'password' => 'Password',
+  'login_title' => 'Masuk ke Sistem', 'login_failed' => 'Username atau password salah.',
+  'login_required' => 'Username dan password wajib diisi.',
+  'welcome' => 'Selamat datang', 'data_list' => 'Daftar Barang', 'add' => 'Tambah Barang',
+  'edit' => 'Ubah', 'delete' => 'Hapus', 'save' => 'Simpan', 'update' => 'Perbarui', 'cancel' => 'Batal',
+  'no' => 'No', 'code' => 'Kode Barang', 'name' => 'Nama Barang', 'category' => 'Kategori',
+  'qty' => 'Jumlah', 'price' => 'Harga (Rp)', 'location' => 'Lokasi', 'action' => 'Aksi',
+  'no_data' => 'Belum ada data.', 'confirm_delete' => 'Yakin ingin menghapus data ini?',
+  'search' => 'Cari nama/kode...', 'search_btn' => 'Cari',
+  'err_required' => 'Semua field wajib diisi.', 'err_qty' => 'Jumlah harus berupa bilangan bulat >= 0.',
+  'err_price' => 'Harga harus berupa angka >= 0.', 'err_code_exists' => 'Kode barang sudah digunakan.',
+  'err_code_format' => 'Kode hanya boleh huruf, angka, dan tanda minus (maks 20 karakter).',
+  'msg_added' => 'Data berhasil ditambahkan.', 'msg_updated' => 'Data berhasil diperbarui.',
+  'msg_deleted' => 'Data berhasil dihapus.', 'not_found' => 'Data tidak ditemukan.',
+  'language' => 'Bahasa', 'edit_title' => 'Ubah Data Barang', 'add_title' => 'Tambah Data Barang',
+  'invalid_token' => 'Token keamanan tidak valid.',
+];
